@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lovecraft - Lovecraft&Művészet</title>
+	<link rel="icon" type="image/png" href="../img/web/icon.png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/style.css" title="normal">
+	<link rel="stylesheet" type="text/css" href="../css/wcag.css" title="wcag">
+	<script src="../js/javascript.js"></script>
+</head>
+<body id="body">
+	<header>
+		<div class="intro-img"></div>
+		<h1>Lovecraft<br>&Művészet</h1>
+	</header>
+	<nav class="wcag">
+		<a href="#content">Ugrás a tartalomra</a>
+	</nav>
+	<nav>
+		<ul>
+			<li>
+				<span class="hide">Menu</span>
+				<ul>
+					<li><a href="index.html"  title="Howard Phillips Lovecraft">Lovecraft</a></li>
+					<li><a href="goya.html" title="Francisco Goya">Goya</a></li>
+					<li><a href="fuseli.html" title="Henry Fuseli">Fuseli</a></li>
+					<li><span title="Kérdőív">Kérdőív</span></li>
+					<li id="wcag" onclick="setActiveStyleSheet('wcag')"><span>WCAG</span></li>
+					<li id="normal" onclick="setActiveStyleSheet('normal')"><span>Normál</span></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<main id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<section>
+						<form action="mailto:bbjpni@inf.elte.hu" method="post" enctype="text/plain">
+							<label for="name">Név:</label>
+							<input type="text" name="name" id="name" maxlength="128" size="10">
+							<label for="title">Kedvenc Lovecraft története címe:</label>
+							<input type="text" name="title" id="title" maxlength="256" size="10">
+							<label for="plot">Kedvenc Lovecraft története eseményei:</label>
+							<textarea name="plot" id="plot" cols="60" rows="10"></textarea>
+							<span>Nem:</span>
+							<input type="radio" checked name="gender" id="ferfi" value="ferfi">
+							<label for="ferfi">Férfi</label>
+							<input type="radio" name="gender" id="no" value="no">
+							<label for="no">Nő</label>
+							<input type="radio" name="gender" id="egyeb" value="egyeb">
+							<label for="egyeb">Egyéb</label>
+							<br>
+							<input type="checkbox" name="like" id="like">
+							<label for="like">Szereti Lovecraft munkáit?</label>
+							<br>
+							<input class="no-bottom" type="submit" value="Elküld">
+							<input class="no-bottom" type="reset" value="Töröl">
+						</form>
+					</section>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="frame">
+		<ul>
+			<li title="név">Brozsek Zsombor</li>
+			<li title="neptun kód">BBJPNI</li>
+			<li title="e-mail"><a href="mailto:bbjpni@inf.elte.hu">bbjpni@inf.elte.hu</a></li>
+		</ul>	
+	</footer>
+</body>
+</html>

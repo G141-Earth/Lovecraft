@@ -1,0 +1,107 @@
+body
+{
+	color: #3c3022;
+}
+
+body#body
+{
+	background-color: #f6f6f6;
+}
+
+nav
+{
+	color: #d2dfdd;
+}
+
+figure
+{
+	background-color: #ffffff;
+}
+
+.book, .painting
+{
+	background-color: transparent;
+}
+
+.intro.img
+{
+	background-color: #716c5e;
+}
+
+li#wcag
+{
+	color: #ffff00;
+}
+
+nav ul li:first-child, nav ul li ul li:first-child
+{
+	border-color: #f6f6f6;
+}
+
+nav a, nav a:link, nav a:visited, nav a:hover
+{
+	color: #679966;
+}
+
+a, a:link
+{
+	color: #84270e;
+}
+
+a:visited
+{
+	color: #692faf;
+}
+
+header h1
+{
+	color: #ffffff;
+}
+
+figure figcaption
+{
+	border-color: #000000;
+}
+
+.container, .container-fluid
+{
+	border-color: #cecbc7;
+}
+
+footer, nav
+{
+	background-color: #161815;
+}
+
+.book-text, form
+{
+	background-color: #fff;
+}
+
+.book-text p:last-child
+{
+	border-top-color: #cecbc7;
+}
+
+.book-text h3
+{
+	border-bottom-color: #cecbc7;
+}
+
+:root
+{
+	--link: #c93f1b;
+	--linkWCAG: #a73113;
+	--linkVisited: #5a5a5a;
+	--body: #161815;
+	--background: #e7e4d3;
+	--backgroundDeep: #e1decf;
+	--text: #3c3022;
+	--highlighter: #4b876b;
+	--highlighterWCAG: #29642e;
+
+	--background: #ffffff;
+	--menu: #161815;
+	--title: #ffffff;
+	--headline: #6d6744;
+}

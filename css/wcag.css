@@ -1,0 +1,78 @@
+@import url('style.css');
+@import url('print.css');
+
+
+body#body, body, footer ul
+{
+	font-size: 1.5rem;
+}
+
+figure.book figcaption
+{
+	font-size: 1.875rem;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-size: 2rem;
+}
+
+footer ul li::after, footer ul li::before
+{
+	display: none;
+	height: 52px;
+	padding: 8px;
+}
+
+footer ul li
+{
+	padding: 8px;
+	margin-bottom: 12px;
+}
+
+footer ul li::after
+{
+	width: 52px;
+}
+
+@media (min-width: 992px)
+{
+	footer ul li::after, footer ul li::before
+	{
+		display: block;
+	}
+
+	footer ul li:nth-child(1)::before
+	{
+		margin-left: -172px
+	}
+
+	footer ul li:nth-child(1)::after
+	{
+		margin-left: 113.22px
+	}
+
+	footer ul li:nth-child(2)::before
+	{
+		top: 76px;
+		margin-left: -203.03px
+	}
+
+	footer ul li:nth-child(2)::after
+	{
+		top: 76px;
+		margin-left: 62.83px
+	}
+
+	footer ul li:nth-child(3)::before
+	{
+		top: 140px;
+		margin-left: -198.5px
+	}
+
+	footer ul li:nth-child(3)::after
+	{
+		top: 140px;
+		margin-left: 113.74px
+	}
+}

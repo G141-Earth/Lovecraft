@@ -1,0 +1,101 @@
+@media print
+{
+	body
+	{
+		font-family: "Times New Roman", serif !important;
+		margin: 2cm;
+		font-size: 18pt;
+		color: #000000;
+	}
+
+	p, figure.book figcaption, footer ul, figure figcaption, table
+	{
+		font-family: "Times New Roman", serif !important;
+		font-size: 20pt !important;
+	}
+
+	header h1, .upper, h2, h3
+	{
+		font-family: "Times New Roman", serif !important;
+		font-size: 40pt;
+		text-align: left;
+		color: #000000;
+		text-transform: initial;
+	}
+
+	footer ul li::before, footer ul li::after, footer
+	{
+		display: none;
+	}
+
+	header h1
+	{
+		text-align: center;
+	}
+
+	h2
+	{
+		font-size: 32pt;
+	}
+
+	.container, .container-fluid
+	{
+		border-bottom: none !important;
+	}
+
+	.upper, h3
+	{
+		font-size: 24pt;
+	}
+
+	.upper::first-letter
+	{
+		font-family: "Times New Roman", serif !important;
+		font-weight: normal !important; 
+	}
+
+	header, main, footer
+	{
+		padding: 0;
+		width: 100%;
+	}
+
+	a
+	{
+		text-align: left;
+		display: block;
+	}
+
+	header h1
+	{
+		position: initial;
+	}
+
+	a:after
+	{
+  		content: " (" attr(href)")";
+	}
+
+
+	video, .video-text, nav, .book img
+	{
+		display: none;
+	}
+
+	.book
+	{
+		display: block;
+		margin: 0;
+	}
+
+	figure figcaption, figure.book
+	{
+		margin: 0;
+	}
+
+	footer ul li
+	{
+
+		padding: 0;
+	}
+}
